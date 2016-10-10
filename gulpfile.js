@@ -1,5 +1,5 @@
 // =======================================
-// REQUIRED 
+// REQUIRED
 // =======================================
 
 var gulp           = require('gulp'),
@@ -70,11 +70,12 @@ gulp.task('browser-sync', function(){
 
 
 // =======================================
-// WATCH 
+// WATCH
 // =======================================
 
 gulp.task('watch', function(){
   // gulp.watch('js/**/*.js', ['scripts']);
+  gulp.watch('js/**/*.js', ['scripts']);
   gulp.watch('scss/**/*.scss', ['styles']);
   gulp.watch('*.html', ['html']);
 });
